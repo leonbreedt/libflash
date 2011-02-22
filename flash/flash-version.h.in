@@ -1,0 +1,18 @@
+/* Flash Plugin Wrapper Library
+ * (C) Copyright 2004-2005 Leon Breedt
+ *
+ * Licensed under the terms of the MIT license.
+ */
+
+#ifndef __FLASH_VERSION_H__
+#define __FLASH_VERSION_H__
+
+/* Use the defines when you want to find out the build time library version */
+#define FLASH_VERSION_MAJOR (@FLASH_MAJOR_VERSION@)
+#define FLASH_VERSION_MINOR (@FLASH_MINOR_VERSION@)
+#define FLASH_VERSION_MICRO (@FLASH_MICRO_VERSION@)
+
+/* Use when you want to find out the runtime library version */
+void flash_version (int *major, int *minor, int *micro);
+
+#endif

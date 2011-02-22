@@ -1,0 +1,16 @@
+Flash plugin wrapper library
+============================
+
+This library was written as a hack to let an arbitrary GTK application
+embed the Flash browser plugin, and use it to play back Flash content.
+
+I'm putting it up here in the event that someone may find it useful as
+a reference as to how you may be able to trick browser plugins to run
+in your own app.
+
+WARNING: This is not being actively maintained.
+
+License
+-------
+
+The license is the MIT license, see the LICENSE file for more details.

@@ -1,0 +1,21 @@
+0.99.3
+	* Change license to MIT
+
+0.99.2
+	* flash/flash-library.c: move _FlashLibrary declaration to
+	  flash-library-internal.h so that flash-file.c can access some struct
+	  members. add ScriptablePeer symbols to FlashLibrary struct so that we
+	  don't reload them on every method invocation. improve debugging.
+	* flash/flash-file.[ch]: add callback support for playback stop events, and
+	  allow to specify whether a file should loop or not
+	* flash/flash-library-internal.h: move decls from flash-library.c to here
+	* flash/testflash.c: add callback support and don't loop files by default,
+	  exit when Flash has finished playing
+	
+0.99.1
+	* flash/flash-file.[ch]: add flash_file_resize() stub, change
+	flash_file_play() signature to require a GtkWindow
+	* configure.in: drop GTK requirement down to version 2.2.0
+
+0.99.0
+	* Initial release
