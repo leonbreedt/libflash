@@ -3,6 +3,7 @@ Flash plugin wrapper library
 
 WARNING: This is not being actively maintained, but it was languishing
          inaccessible to anyone else, thought I'd put it up.
+         It was last updated in 2005.
 
 This library was written as a hack to let an arbitrary GTK application
 embed the Flash browser plugin, and use it to play back Flash content.
